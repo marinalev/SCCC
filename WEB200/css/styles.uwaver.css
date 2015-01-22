@@ -1,0 +1,415 @@
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+aside, article, section, header, footer, nav {display: block;}
+		
+aside, article, section, header, footer, nav, html, body, p, h1, h2, h3, div {margin:0; padding:0;}
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+}
+#main_nav {
+	display: inline-block;
+	float: left;
+}
+#main_header img{
+	display: inline-block;
+	float:left;
+	overflow:hidden;
+}
+#main_nav ul {
+		/*text-align: center;*/
+	}
+#main_nav li {
+	float:left;
+	list-style-type:none;
+	margin-right:40px;	
+}
+a {
+	text-decoration: none;
+	color: #;
+}
+#main_home {
+	float:left;
+	
+}
+#main_home img{
+	display:inline-block;
+	float: left;
+}
+#spotlight {
+	float:left;
+	/*width:30%;//desktop*/
+}
+.home_col1{
+	float:left;
+}
+.home_col2 {
+	float:left;
+}
+.home_col3{;
+	float:left;
+}
+.promo {
+	display:inline-block;
+	text-align: center;
+}
+#footer_nav {	
+	display:inline-block;
+	text-align:left;
+}
+
+floats 
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+/*mobile styles*/
+@media (max-width:480px) {
+
+body {
+	width: 360px; /* ASK SARA IF 320????*/
+	font: 100% Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+}
+#main_nav {
+	display: none;
+	/*list-style-type:none;*/
+	float: left;
+	/*overflow:hidden;*/
+}
+#main_header img{
+	/*display: inline-block;*/
+	width:40%;
+	float:left;
+	overflow:hidden;
+}
+#main_nav ul {
+		/*text-align: center;*/
+	}
+/*#main_nav li {
+	float:left;
+	list-style-type:none;
+	margin-right: 10px;
+	margin-left:40px;
+	text-align:;
+	margin-bottom:30px;*/
+}
+/*About page nav bar*/
+#about_nav_bar {
+	float:left;
+	display:block;
+	clear: both;
+	width:21.27%;
+}
+#nav_links li{ 
+	list-style-type:none;
+	float:left;
+	clear: both;
+}
+#about_content {
+	width: 72.34%;
+	float:right;
+}
+#about_team p{
+	width:49%;
+}
+#ab0ut_tean img{
+	width:13%;
+}
+#m
+
+#main_home img{
+	display:inline-block;
+	margin-top:-40px;
+	margin-right:20px;
+	float: left;
+	overflow:hidden;
+	
+}
+#main_home {
+	width:100%;
+	float:right;
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+#main_home p,h1 {
+	float:left;
+}
+#main_home h1{
+	margin-top:0px;
+	margin-left:20px;
+}
+#main_home p{
+	width:100%;
+	float:left;
+	margin-right:10px;
+	margin-left:20px;
+	text-align: justify;
+	font-size: 120%;
+	margin-top: 20px;
+	}
+.home_col1{
+	width: 20%; 
+	float:left;
+	margin-right:60px;	
+	margin-left:15px;
+	margin-top:20px;
+	text-align: center;
+	font-size: 100%;
+}
+.home_col2 {
+	width: 20%; 
+	float:left;
+	margin-right:50px;
+	margin-top:20px;
+	text-align: center;
+	font-size: 100%;
+
+}
+.home_col3{
+	width: 20%; 
+	margin-right:0px;
+	float:left;
+	margin-top:20px;
+	text-align: center;
+	font-size: 100%;
+
+}
+.home_col1 img{
+	margin-left:-30px;
+	margin-top:0px;
+}	
+.home_col2 img{
+	margin-top:10px;
+	margin-left:-25px;
+}	
+.home_col3 img{
+	margin-top:25px;
+	margin-left:-10px;
+}	
+.promo {
+	display:inline-block;
+	margin-top:20px;
+	width: 96%;
+	text-align: center;
+}
+.promo p{
+	
+}
+
+#footer_nav {	
+	margin-top:70px;
+	text-align:center;
+	/*overflow:hidden;*/
+}
+#footer_nav ul{ /*ASK SARA!!*/
+	display:none;
+}
+#footer_nav select {/*How to center it???????*/
+	width: 90px;
+	display: block;
+	text-align:justify;
+	font-size:120%;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	margin-top:-50px;
+}
+#footer_nav li{
+	float: left;
+	margin-top:10px;
+	/*overflow:hidden;*/
+	list-style-type:none;
+	margin-left:40px;
+	text-align:center;
+	margin-bottom:10px;
+}
+#footer {
+	display:inline-block;
+	text-align:center;
+	margin-bottom:20px;
+	width:96%;
+}
+}
+/* iPad / tablet landscape /desktop styles*/
+@media (min-width:769px) {
+	body{
+		font-family:Arial, Helvetica, sans-serif;
+		width:844px;
+		margin: 0 auto;
+	}
+#main_nav {
+	display: inline-block;
+	/*list-style-type:none;*/
+	float: left;
+	margin-top:70px;
+	margin-left: 50px;
+	/*overflow:hidden;*/
+}
+#main_header img{
+	/*display: inline-block;*/
+	float:left;
+	overflow:hidden;
+}
+#main_nav ul {
+		/*text-align: center;*/
+	}
+#main_nav li {
+	float:left;
+	list-style-type:none;
+	margin-right: 10px;
+	margin-left:40px;
+	text-align:;
+	margin-bottom:30px;
+}
+#main_home img{
+	display:inline-block;
+	width:30%;
+}
+#spotlight {
+	float:left;
+	width:30%;
+}
+/*About page nav bar*/
+#about_nav_bar {
+	float:left;
+	display:block;
+	clear: both;
+	width:21.27%;
+}
+#nav_links li{ 
+	list-style-type:none;
+	float:left;
+	clear: both;
+}
+#about_content {
+	width: 72.34%;
+	float:right;
+}
+#about_team p{
+	width:49%;
+}
+#ab0ut_tean img{
+	width:13%;
+}
+#main_home img{
+	/*display:inline-block;*/
+	width:50%;
+	margin-top:-40px;
+	margin-right:20px;
+	margin-left:-70px;
+	float: left;
+	/*overflow:hidden;*/
+	
+}
+#main_home {
+	width:90%;
+	float:right;
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+#main_home p,h1 {
+	float:left;
+}
+#main_home h1{
+	margin-top:-20px;
+}
+#main_home p{
+	width:50%;
+	float:left;
+	margin-right:20px;
+	text-align: justify;
+	font-size: 120%;
+	margin-top: 20px;
+	}
+.home_col1{
+	width: 29.78%; 
+	float:left;
+	margin-right:20px;	
+	margin-left:20px;
+	margin-top:20px;
+	text-align: center;
+}
+.home_col2 {
+	width: 29.78%; 
+	float:left;
+	margin-right:20px;
+	margin-top:20px;	
+	text-align: center;
+
+}
+.home_col3{
+	width: 29.78%; 
+	margin-right:20px;
+	float:left;
+	margin-top:20px;
+	text-align: center;
+
+}
+.home_col1 img{
+	margin-left:10px;
+	margin-top:10px;
+}	
+.home_col2 img{
+	margin-top:10px;
+}	
+.home_col3 img{
+	margin-top:25px;
+}	
+.promo {
+	display:inline-block;
+	margin-top:20px;
+	width: 96%;
+	text-align: center;
+}
+.promo p{
+	
+}
+
+#footer_nav {	
+	margin-top:70px;
+	text-align:center;
+	/*overflow:hidden;*/
+}
+#footer_nav ul{
+	margin-left:220px;
+}
+#footer_nav li{	
+	float: left;
+	margin-top:10px;
+	/*overflow:hidden;*/
+	list-style-type:none;
+	margin-left:40px;
+	text-align:center;
+	margin-bottom:10px;
+}
+#footer {
+	display:inline-block;
+	text-align:center;
+	width:96%;
+}
+#footer_nav select {
+	display: none;
+}
+}
+
+/* iPad / tablet portrait */
+@media (max-width: 768px) {
+	#main,
+	#social,
+	footer{
+		width:700px;
+	}
+}
+

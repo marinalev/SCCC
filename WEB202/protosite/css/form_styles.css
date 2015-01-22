@@ -1,0 +1,41 @@
+form {
+	color: #323846;
+}
+
+.form_left {
+	width:150px;
+	float:left;
+	display:block;
+}
+
+.form_left_down {
+	display:block;
+}
+
+input, output, select{
+	padding:1px 3px;
+	color: #2D3438 ;
+	border:1px solid #737CA1;
+}
+
+#email {
+	background-position: 0px -12px;
+}
+
+#phone {
+	background-position: 0px -35px;
+}
+
+#password, #name, #email-grey{
+	background: #E3E3E3;
+}
+
+.form-input{
+	background: #E3E3E3;
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover {
+	border:1px solid gray;
+}

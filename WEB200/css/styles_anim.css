@@ -1,0 +1,262 @@
+/*#rose {
+	/*-moz-animation:rose_anim 10s ease-in-out infinite;
+	animation:rose_anim 10s ease-in-out infinite;
+	-moz-animation:rose_anim 10s linear infinite;
+	animation:rose_anim 10s linear infinite;
+}
+/*
+@-moz-keyframes rose-anim {
+	0% {
+		-moz-transform:translate(0px,0px);	
+	}
+	
+	25% {
+		-moz-transform:translate(500px,0px);	
+	}
+	
+	50% {
+		-moz-transform:translate(500px,500px);	
+	}
+	
+	75% {
+		-moz-transform:translate(0px,500px);	
+	}
+	
+	100% {
+		-moz-transform:translate(0px,0px);	
+	}
+}
+
+@keyframes rose-anim {
+	0% {
+		transform:translate(0px,0px);	
+	}
+	
+	25% {
+		transform:translate(500px,0px);	
+	}
+	
+	50% {
+		transform:translate(500px,500px);	
+	}
+	
+	75% {
+		transform:translate(0px,500px);	
+	}
+	
+	100% {
+		transform:translate(0px,0px);	
+	}
+}*/
+/*
+#rose {
+	/* Transition Type, duration, timing function, delay
+	-moz-transition: -moz-transform 2s linear .2s, border 2s linear .2s;
+	-webkit-transition: -moz-transform 2s linear .2s, border 2s linear .2s;
+	-o-transition: -moz-transform 2s linear .2s, border 2s linear .2s;
+	-ms-transition: -moz-transform 2s linear .2s, border 2s linear .2s;
+	transition: -moz-transform 2s linear .2s, border 2s linear .2s;
+	border:5px solid red;
+}
+
+#rose:hover {
+	-moz-transform: translate(150px, 0px) scale(1.5, 0.25) rotate(25deg);
+	-webkit-transform: translate(150px, 0px) scale(1.5, 0.25) rotate(25deg);
+	-o-transform: translate(150px, 0px) scale(1.5, 0.25) rotate(25deg);
+	-ms-transform: translate(150px, 0px) scale(1.5, 0.25) rotate(25deg);
+	transform: translate(150px, 0px) scale(1.5, 0.25) rotate(25deg);
+	border:5px solid blue;
+}*/
+/*#rose {
+	width:150px;
+	
+	-moz-animation:rose_anim 10s ease-in-out infinite;
+	-webkit-animation:rose_anim 10s ease-in-out infinite;
+	-o-animation:rose_anim 10s ease-in-out infinite;
+	animation:rose_anim 10s ease-in-out infinite;
+}
+/*
+@-moz-keyframes rose_anim {
+	0% {
+		-moz-transform:rotate(0deg);
+	}
+	100% {
+		-moz-transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rose_anim {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	100% {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@-o-keyframes rose_anim {
+	0% {
+		-o-transform:rotate(0deg);
+	}
+	100% {
+		-o-transform:rotate(360deg);
+	}
+}
+
+@keyframes rose_anim {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+} */
+
+/*@-moz-keyframes rose_anim {
+	0% {
+		-moz-transform:translate(0px,0px);	
+	}
+	
+	25% {
+		-moz-transform:translate(500px,0px);	
+	}
+	
+	50% {
+		-moz-transform:translate(500px,500px);	
+	}
+	
+	75% {
+		-moz-transform:translate(0px,500px);	
+	}
+	
+	100% {
+		-moz-transform:translate(0px,0px);	
+	}
+}
+
+@keyframes rose_anim {
+	0% {
+		transform:translate(0px,0px);	
+	}
+	
+	25% {
+		transform:translate(500px,0px);	
+	}
+	
+	50% {
+		transform:translate(500px,500px);	
+	}
+	
+	75% {
+		transform:translate(0px,500px);	
+	}
+	
+	100% {
+		transform:translate(0px,0px);	
+	}
+}*/
+h1 {
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+	  -moz-animation-iteration-count: 2;
+      -webkit-animation-iteration-count: 2;
+	  -moz-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+    }
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%
+      }
+      
+	  75% {
+        font-size:300%;
+        margin-left:25%;
+        width:150%;
+      }
+	  
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%;
+		background: white;
+      }
+	  
+	  75% {
+        font-size:300%;
+        margin-left:25%;
+        width:150%;
+		background: yellow;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations?redirectlocale=en-US&redirectslug=CSS%2FTutorials%2FUsing_CSS_animations 
+	https://developer.mozilla.org/en-US/docs/Web/CSS/animation*/
+	
+img {
+      -moz-animation-duration: 5s;
+      -webkit-animation-duration: 5s;
+      -moz-animation-name: fade;
+      -webkit-animation-name: fade;
+	  -moz-animation-iteration-count: 2;
+      -webkit-animation-iteration-count: 2;
+	  -moz-animation-direction: normal;
+      -webkit-animation-direction: normal;
+    }
+
+ @-moz-keyframes fade {
+      from {
+        margin-left:10%;
+        width:300%
+      }
+      
+	  75% {
+        font-size:300%;
+        margin-left:25%;
+        width:150%;
+      }
+	  
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes fade {
+      from {
+        margin-left:10%;
+        width:200%;
+      }
+	  
+	  50% {
+        margin-left:25%;
+        width:40%;
+      }
+      
+	  75% {
+        margin-left:5%;
+        width:60%;
+      }
+      
+      to {
+        margin-left:80%;
+        width:80%;
+      }
+	  95% {
+        margin-left:5%;
+        width:10%;
+      }
+    }
